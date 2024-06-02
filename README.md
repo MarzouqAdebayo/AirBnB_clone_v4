@@ -2,19 +2,9 @@
 
 This is a complete full-stack web application, integrating a MySQL database and Flask RESTful API with a dynamic HTML5/CSS3/jQuery front-end.
 
-It was based off the basic characteristics of the Airbnb platform.
-
-![](./readme_images/web_dynamic_diagram.png)
-
-# Iterations
-
-The project was developed in several iterations, being V4 the last one. This iterations encompassed several concepts and integrations that will be explained below.
-
 ## The Console
 
 The first iteration of the project consisted on building an interactive console in order to allow for development testing.
-
-![The Console](./readme_images/the_console_diagram.png)
 
 The Console was coded in order to work with a temporary storage engine based on JSON, and included the next features:
 
@@ -70,17 +60,11 @@ $
 
 This part of the project consisted in building the basic CSS and HTML source code.
 
-![](./readme_images/web_static_diagram.png)
-
-![](./readme_images/web_static.png)
 
 ## MySQL
 
 This section consisted on the data modeling for the relational database in MySQL.
 
-![](./readme_images/mysql_diagram.png)
-
-![](./readme_images/mysql_model.jpg)
 
 ## Web Framework
 
@@ -90,9 +74,6 @@ For this development, the MySQL database started being used in order to serve co
 
 All of the HTML and CSS source code started being hosted in the server, and no items were hard coded, but instead produced through dynamic data integration.
 
-![](./readme_images/web_framework.jpg)
-
-![](./readme_images/web_framework_diagram.png)
 
 ## RESTful API
 
@@ -100,7 +81,6 @@ Although the Server Side Render with Flask and Jinja was interesting, this secti
 
 This Application Programming Interface was built with Flask and SQLAlchemy in order to work with MySQL and respond to HTTP requests.
 
-![](./readme_images/restful_api_diagram.png)
 
 The endpoints can be seen below.
 
@@ -189,13 +169,6 @@ The endpoints can be seen below.
     GET /apidocs
     **Gets the documentation of the API built in Flasgger
 
-## Web Dynamic
-
-This was the final iteration of the project and consisted in changing the Server Side Render for Client Based Render using JavaScript with jQuery, and the RESTful API from before.
-
-![Image result for jquery and javascript](https://miro.medium.com/max/600/1*8Whvj5G9f5DVmCBIzywYww.png)
-
-![](./readme_images/web_dynamic_diagram.png)
 
 
 # AUTHORS
